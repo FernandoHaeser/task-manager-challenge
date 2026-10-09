@@ -4,20 +4,6 @@ import java.util.ArrayList;
 
 import main.java.br.com.fernando.gerenciadortarefas.models.Tarefa;
 
-/*
-Crie uma classe chamada GerenciadorTarefas que armazene as tarefas em uma lista:
-
-private ArrayList<Tarefa> tarefas = new ArrayList<>();
-
-Implemente os métodos:
-
-Método	Comportamento
-adicionarTarefa(Tarefa tarefa)	Adiciona uma tarefa à lista.
-listarTarefas()	Exibe todas as tarefas.
-listarAtrasadas()	Exibe somente as tarefas atrasadas.
-concluirTarefa(String titulo)	Marca uma tarefa pelo título como concluída.
-Regra: depois de concluída, uma tarefa não deve mais aparecer na listagem de tarefas atrasadas. */
-
 public class GerenciadorTarefas {
 
     private ArrayList<Tarefa> tarefas = new ArrayList<>();
